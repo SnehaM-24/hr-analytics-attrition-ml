@@ -1,40 +1,67 @@
 # HR Analytics – Employee Attrition Prediction (Machine Learning)
 
 ## 📌 Project Overview
-This project analyzes HR employee data to understand the factors leading to employee attrition and builds a Machine Learning model to predict whether an employee is likely to leave the company.
+This project analyzes HR employee data to understand the key factors leading to employee attrition. It also builds a Machine Learning model to predict whether an employee is likely to leave the company, helping HR teams take preventive actions.
+
+---
 
 ## 🎯 Objective
-- Analyze employee behavior and attrition patterns
-- Perform data cleaning and exploratory data analysis (EDA)
-- Build and evaluate ML classification models
-- Identify key factors influencing attrition
+- Analyze employee behavior and attrition patterns  
+- Perform data cleaning and exploratory data analysis (EDA)  
+- Build machine learning classification models  
+- Identify key factors influencing employee attrition  
 
-## 🛠 Tools & Libraries
-- Python (Pandas, NumPy)
-- Matplotlib, Seaborn (Visualization)
-- Scikit-learn (Machine Learning)
+---
+
+## 🛠 Tools & Technologies
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Scikit-learn  
+
+---
 
 ## 📂 Dataset
-HR dataset containing employee details such as age, salary, department, job role, years at company, and attrition status.
+The dataset contains employee information such as:
+- Age  
+- Salary  
+- Department  
+- Job Role  
+- Years at Company  
+- Overtime Status  
+- Attrition (Target Variable)
 
-## 📊 Steps Performed
-1. Data cleaning and preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Feature encoding and scaling
-4. Model building (Logistic Regression / Random Forest / etc.)
-5. Model evaluation using accuracy and confusion matrix
+---
 
-## 📷 EDA & Model Output
+## 🔄 Project Workflow
+1. Data Cleaning & Preprocessing  
+2. Exploratory Data Analysis (EDA)  
+3. Feature Engineering & Encoding  
+4. Train-Test Split  
+5. Model Building (Logistic Regression / Random Forest)  
+6. Model Evaluation (Accuracy, Confusion Matrix)  
 
-![Attrition Count](images/attrition_count.png)
-![Heatmap](images/heatmap.png)
-![Model Result](images/model_output.png)
+---
 
-## ✅ Key Insights
-- Employees with low salary and overtime are more likely to leave
-- Job role and years at company influence attrition
-- Model achieved good accuracy in predicting attrition
+## 📊 Visualizations
+- Attrition distribution chart  
+- Correlation heatmap  
+- Feature impact analysis  
+- Model performance visualization  
 
-## 🎯 Outcome
-The model helps HR departments identify at-risk employees and take preventive actions to improve retention.# hr-analytics-attrition-ml
-HR Analytics project to predict employee attrition using Machine Learning with data cleaning, EDA, feature engineering, and model evaluation in Python.
+---
+
+## 📈 Key Insights
+- Employees with low salary are more likely to leave  
+- Overtime significantly increases attrition risk  
+- Job role and years at company strongly impact retention  
+- Model can effectively predict employee attrition patterns  
+
+---
+
+## 🎯 Results
+- Achieved good prediction accuracy using classification models  
+- Identified major factors affecting employee retention  
+- Model helps HR teams identify at-risk employees early  
+
+--
