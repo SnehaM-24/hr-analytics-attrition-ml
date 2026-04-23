@@ -1,88 +1,77 @@
-# 📊 HR Attrition Analysis
+# Employee Attrition Analysis | HR Analytics Project
 
-## 📌 Project Overview
-Employee attrition is a critical challenge for organizations. High turnover leads to increased costs, loss of talent, and reduced productivity.
-
-This project analyzes HR data to identify key factors influencing employee attrition and provides actionable insights to help organizations improve retention.
+## 📌 Problem Statement
+Employee attrition is a major challenge for organizations, leading to increased hiring costs, loss of experienced talent, and reduced productivity. This project analyzes HR data to identify the key factors contributing to employee attrition.
 
 ---
 
 ## 🎯 Objective
-- Understand patterns behind employee attrition  
-- Identify key factors affecting employee turnover  
-- Provide data-driven recommendations  
+- Analyze patterns behind employee attrition
+- Identify important factors influencing employee turnover
+- Provide data-driven insights to improve employee retention
 
 ---
 
 ## 📂 Dataset
-- HR Employee Attrition Dataset  
-- Contains information on:
-  - Employee demographics  
-  - Job roles and departments  
-  - Salary and compensation  
-  - Work conditions (overtime, etc.)  
+HR Employee Attrition dataset containing:
+- Employee demographics
+- Job roles and departments
+- Salary and compensation details
+- Work conditions such as overtime, job satisfaction, and tenure
 
 ---
 
-## 🛠️ Tools & Technologies
-- Python 🐍  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Jupyter Notebook  
+## 🛠️ Tools & Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ---
 
-## 🧹 Data Cleaning
-- Checked for missing values  
-- Verified duplicate records  
-- Handled categorical variables  
-- Ensured proper data types  
+## 🧹 Data Preprocessing
+- Checked missing values and duplicates
+- Handled categorical variables
+- Verified and corrected data types
+- Performed data quality checks
 
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
-
-Key analyses performed:
-- Attrition distribution  
-- Department-wise attrition  
-- Job role analysis  
-- Salary vs attrition  
-- Overtime impact  
-- Correlation analysis  
+The following analyses were performed:
+- Attrition distribution
+- Attrition vs Age
+- Attrition vs Monthly Income
+- Attrition vs Department
+- Attrition vs Job Role
+- Attrition vs Overtime
+- Attrition vs Years at Company
+- Correlation Heatmap
 
 ---
 
 ## 🔍 Key Insights
-
-- ⚠️ Employees working overtime are more likely to leave  
-- 💰 Lower salary is strongly associated with higher attrition  
-- 🏢 Certain departments (e.g., Sales) show higher attrition rates  
-- 👨‍💼 Job role plays a significant role in employee retention  
+- Employees working overtime show significantly higher attrition
+- Lower monthly income is strongly associated with higher attrition
+- Sales department has the highest attrition rate
+- Job role and job satisfaction greatly impact retention
+- Younger employees tend to leave more frequently
 
 ---
 
-## 📈 Visualizations
-The project includes:
-- Count plots  
-- Box plots  
-- Heatmaps  
-- Distribution plots  
+## 📈 Important Visualizations
+
+![Attrition Count](images/attrition_count.png)
+![Attrition vs Age](images/attrition_vs_age.png)
+![Attrition vs Income](images/attrition_vs_income.png)
+![Attrition vs Department](images/attrition_vs_department.png)
+![Attrition vs Job Role](images/attrition_vs_jobrole.png)
+![Attrition vs Overtime](images/attrition_vs_overtime.png)
+![Correlation Heatmap](images/heatmap.png)
 
 ---
 
 ## ✅ Conclusion
-
-Employee attrition is influenced by multiple factors including:
-- Compensation  
-- Workload (overtime)  
-- Job role and department  
-
-### 💡 Recommendations:
-- Improve work-life balance  
-- Review salary structures  
-- Focus on high-risk departments  
-- Enhance employee engagement  
-
----
+Overtime, income level, job role, department, and job satisfaction are the major drivers of employee attrition. These insights can help HR teams design effective retention strategies and improve employee engagement.
