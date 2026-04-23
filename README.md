@@ -69,7 +69,7 @@ The following analyses were performed:
 ![Attrition vs Department](images/attrition_vs_department.png)
 ![Attrition vs Job Role](images/attrition_vs_jobrole.png)
 ![Attrition vs Overtime](images/attrition_vs_overtime.png)
-![Correlation Heatmap](images/correlationheatmap.png)
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ---
 
