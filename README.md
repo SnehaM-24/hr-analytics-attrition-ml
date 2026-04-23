@@ -68,8 +68,10 @@ The following analyses were performed:
 ![Attrition vs Income](images/attrition_vs_income.png)
 ![Attrition vs Department](images/attrition_vs_department.png)
 ![Attrition vs Job Role](images/attrition_vs_jobrole.png)
+![Attrition_vs_Years at Company](images/attrition_vs_yearsatcompany.png)
 ![Attrition vs Overtime](images/attrition_vs_overtime.png)
 ![Correlation Heatmap](images/correlation_heatmap.png)
+![Job_Satisfaction_vs_Attrition](images/job_satisfaction_vs_attrition.png)
 
 ---
 
